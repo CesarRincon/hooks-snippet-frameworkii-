@@ -1,0 +1,25 @@
+{
+    "hooks": {
+		"prefix": "hooks",
+		"body": [
+			"{",
+			"\t\"hooks\": {",
+				"\t\t\"name\": \"\", ",
+				"\t\t\"fetchOptions\": { ",
+				"\t\t\t\"url\": \"\",",
+				"\t\t\t\"query\": \"\"",
+				"\t\t},",
+				"\t\t\"componentType\": \"omni-hook\", ",
+				"\t\t\"exec\": [ ",
+				"\t\t\t{",
+				"\t\t\t\t\"name\": \"\",",
+				"\t\t\t\t\"function\": \"\",",
+				"\t\t\t\t\"params\": {}",
+				"\t\t\t}",
+				"\t\t] ",
+
+			"\t}",
+			"}"
+		]
+	}
+}

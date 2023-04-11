@@ -1,0 +1,20 @@
+{
+  "name": "hooks-snippet-frameworkii-",
+  "displayName": "hooks-snippet-frameworkII.",
+  "description": "snippet para rellenar template basico de framework II",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
