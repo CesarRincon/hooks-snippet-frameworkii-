@@ -1,14 +1,19 @@
 {
-  "name": "hooks-snippet-frameworkii-",
+  "name": "hooks-snippet-frameworkii",
   "displayName": "hooks-snippet-frameworkII.",
   "description": "snippet para rellenar template basico de framework II",
-  "version": "0.0.1",
+  "publisher": "CesarRincon",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
   "categories": [
     "Snippets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CesarRincon/hooks-snippet-frameworkii-"
+  },
   "contributes": {
     "snippets": [
       {

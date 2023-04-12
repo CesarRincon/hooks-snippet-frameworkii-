@@ -1,65 +1,63 @@
-# hooks-snippet-frameworkii- README
+# Snippets Framework II
 
-This is the README for your extension "hooks-snippet-frameworkii-". After writing up a brief description, we recommend including the following sections.
+Es una pequeña herramienta para agilizar el proceso de escribir codigo en el framework II
 
-## Features
+# Snippets
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Components
 
-For example if there is an image subfolder under your extension project workspace:
+- Components from [official docs](htthttps://rn-framework-docs.vercel.app/docs/category/styleguide) are added with component name as prefix.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Hooks
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+|      Prefix | Method                                                                      |
+| ----------: | --------------------------------------------------------------------------- |
+|      `hookst` | `Create a basic template of the hook structure`                                                 |
+|     `hook` | `Create the basic structure of a hook.`                                          |
 
-## Requirements
+### Examples
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### `hookst`
 
-## Extension Settings
+```json
+{
+    "hooks": [
+        {
+            "name": "", 
+            "fetchOptions": { 
+                "url": "",
+                "query": ""
+            },
+            "componentType": "omni-hook", 
+            "exec": [ 
+                {
+                    "name": "",
+                    "function": "",
+                    "params": []
+                }
+            ] 
+        }
+    ]
+}
+```
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### `hook`
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
+```json
+{
+    "name": "", 
+    "fetchOptions": { 
+        "url": "",
+        "query": ""
+    },
+    "componentType": "omni-hook", 
+    "exec": [ 
+        {
+        "name": "",
+        "function": "",
+        "params": []
+        }
+    ] 
+}
+```
 **Enjoy!**
