@@ -1,46 +1,304 @@
 {
-	"hooks": {
-		"prefix": "hookst",
-		"body": [
-			"{",
-			"\t\"hooks\": [",
-			"\t\t{",
-			"\t\t\t\"name\": \"\", ",
-			"\t\t\t\"fetchOptions\": { ",
-			"\t\t\t\t\"url\": \"\",",
-			"\t\t\t\t\"query\": \"\"",
-			"\t\t\t},",
-			"\t\t\t\"componentType\": \"omni-hook\", ",
-			"\t\t\t\"exec\": [ ",
-			"\t\t\t\t{",
-			"\t\t\t\t\t\"name\": \"\",",
-			"\t\t\t\t\t\"function\": \"\",",
-			"\t\t\t\t\t\"params\": []",
-			"\t\t\t\t}",
-			"\t\t\t] ",
-			"\t\t}",
-			"\t]",
-			"}"
-		]
-	},
-	"hook": {
-		"prefix": "hook",
-		"body": [
-			"\t\t{",
-			"\t\t\t\"name\": \"\", ",
-			"\t\t\t\"fetchOptions\": { ",
-			"\t\t\t\t\"url\": \"\",",
-			"\t\t\t\t\"query\": \"\"",
-			"\t\t\t},",
-			"\t\t\t\"componentType\": \"omni-hook\", ",
-			"\t\t\t\"exec\": [ ",
-			"\t\t\t\t{",
-			"\t\t\t\t\t\"name\": \"\",",
-			"\t\t\t\t\t\"function\": \"\",",
-			"\t\t\t\t\t\"params\": []",
-			"\t\t\t\t}",
-			"\t\t\t] ",
-			"\t\t}"
-		]
-	}
+  "hooks": {
+    "prefix": "hookst",
+    "body": [
+      "{",
+      "\t\"hooks\": [",
+      "\t\t{",
+      "\t\t\t\"name\": \"\", ",
+      "\t\t\t\"fetchOptions\": { ",
+      "\t\t\t\t\"url\": \"\",",
+      "\t\t\t\t\"query\": \"\"",
+      "\t\t\t},",
+      "\t\t\t\"componentType\": \"omni-hook\", ",
+      "\t\t\t\"exec\": [ ",
+      "\t\t\t\t{",
+      "\t\t\t\t\t\"name\": \"\",",
+      "\t\t\t\t\t\"function\": \"\",",
+      "\t\t\t\t\t\"params\": []",
+      "\t\t\t\t}",
+      "\t\t\t] ",
+      "\t\t}",
+      "\t]",
+      "}"
+    ]
+  },
+  "hook": {
+    "prefix": "hook",
+    "body": [
+      "{",
+      "\t\"name\": \"\", ",
+      "\t\"fetchOptions\": { ",
+      "\t\t\"url\": \"\",",
+      "\t\t\"query\": \"\"",
+      "\t},",
+      "\t\"componentType\": \"omni-hook\", ",
+      "\t\"exec\": [ ",
+      "\t\t{",
+      "\t\t\t\"name\": \"\",",
+      "\t\t\t\"function\": \"\",",
+      "\t\t\t\"params\": []",
+      "\t\t}",
+      "\t] ",
+      "}"
+    ]
+  },
+  "rich-text": {
+    "prefix": "rich-text",
+    "body": [
+      "{",
+      "\t\"componentName\": \"rich-text\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"text\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "link": {
+    "prefix": "link",
+    "body": [
+      "{",
+      "\t\"componentName\": \"link\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"href\": \"\", ",
+      "\t\t\t\"text\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "link-children": {
+    "prefix": "linkCh",
+    "body": [
+      "{",
+      "\t\"componentName\": \"link\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"href\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t},",
+      "\t\t\"children\": []",
+      "}"
+    ]
+  },
+  "grid-sv": {
+    "prefix": "grid-sv",
+    "body": [
+      "{",
+      "\t\"componentName\": \"grid\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"container\": true, ",
+      "\t\t\t\"direction\": \"row\", ",
+      "\t\t\t\"justifyContent\": \"flex-start\", ",
+      "\t\t\t\"alignItems\": \"flex-start\", ",
+      "\t\t\t\"flex\": \"1\", ",
+      "\t\t\t\"mode\": \"scroll-view\", ",
+      "\t\t\t\"showsVerticalScrollIndicator\": false, ",
+      "\t\t\t\"showsHorizontalScrollIndicator\": false, ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t},",
+      "\t\t\"children\": []",
+      "}"
+    ]
+  },
+  "grid-v": {
+    "prefix": "grid-v",
+    "body": [
+      "{",
+      "\t\"componentName\": \"grid\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"container\": true, ",
+      "\t\t\t\"direction\": \"row\", ",
+      "\t\t\t\"justifyContent\": \"flex-start\", ",
+      "\t\t\t\"alignItems\": \"flex-start\", ",
+      "\t\t\t\"flex\": \"1\", ",
+      "\t\t\t\"mode\": \"view\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t},",
+      "\t\t\"children\": []",
+      "}"
+    ]
+  },
+  "icon": {
+    "prefix": "icon",
+    "body": [
+      "{",
+      "\t\"componentName\": \"store-icons\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"name\": \"\", ",
+      "\t\t\t\"stroke\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "button-submit": {
+    "prefix": "button-submit",
+    "body": [
+      "{",
+      "\t\"componentName\": \"store-form.submit\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"buttonText\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "input-otp": {
+    "prefix": "input-otp",
+    "body": [
+      "{",
+      "\t\"componentName\": \"store-form.input\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"name\": \"\", ",
+      "\t\t\t\"variant\": \"otp-code\", ",
+      "\t\t\t\"placeholderTextColor\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "input-email": {
+    "prefix": "input-email",
+    "body": [
+      "{",
+      "\t\"componentName\": \"store-form.input\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"name\": \"email\", ",
+      "\t\t\t\"placeholder\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "input-password": {
+    "prefix": "input-password",
+    "body": [
+      "{",
+      "\t\"componentName\": \"store-form.input\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"name\": \"password\", ",
+      "\t\t\t\"isPassword\": true, ",
+      "\t\t\t\"placeholder\": \"\", ",
+      "\t\t\t\"iconName\": \"\", ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t}",
+      "}"
+    ]
+  },
+  "schemaValidation": {
+    "prefix": "schema-validation",
+    "body": [
+      "\"schemaValidation\": [",
+      "\t{",
+      "\t\t\"id\": \"\", ",
+      "\t\t\"type\": \"text\", ",
+      "\t\t\"validationType\": \"string\", ",
+      "\t\t\"validation\": [] ",
+      "\t}",
+      "]"
+    ]
+  },
+  "schemaValidationPassword": {
+    "prefix": "schema-validationP-password",
+    "body": [
+      "\"schemaValidation\": [",
+      "\t{",
+      "\t\t\"id\": \"password\", ",
+      "\t\t\"type\": \"text\", ",
+      "\t\t\"validationType\": \"string\", ",
+      "\t\t\"validation\": [",
+      "\t\t\t{",
+      "\t\t\t\t\"type\": \"required\", ",
+      "\t\t\t\t\"params\": [\"Este campo es requerido\"] ",
+      "\t\t\t},",
+      "\t\t\t{",
+      "\t\t\t\t\"type\": \"min\", ",
+      "\t\t\t\t\"params\": [ 6, \"Tu contraseña debe contener mínimo X digitos\"] ",
+      "\t\t\t},",
+      "\t\t\t{",
+      "\t\t\t\t\"type\": \"matches\", ",
+      "\t\t\t\t\"params\": [\"/^.*[0-9].*$/",
+      "1 número\"] ",
+      "\t\t\t},",
+      "\t\t\t{",
+      "\t\t\t\t\"type\": \"matches\", ",
+      "\t\t\t\t\"params\": [\"/^.*[a-z].*$/",
+      "1 minúscula\"] ",
+      "\t\t\t},",
+      "\t\t\t{",
+      "\t\t\t\t\"type\": \"matches\", ",
+      "\t\t\t\t\"params\": [\"/^.*[A-Z].*$/",
+      "1 mayúscula\"] ",
+      "\t\t\t}",
+      "\t\t]",
+      "\t}",
+      "]"
+    ]
+  },
+  "validate-required": {
+    "prefix": "validate-required",
+    "body": [
+      "{",
+      "\t\"type\": \"required\", ",
+      "\t\"params\": [\"Este campo es requerido\"] ",
+      "}"
+    ]
+  },
+  "validate-min": {
+    "prefix": "validate-min",
+    "body": [
+      "{",
+      "\t\"type\": \"min\", ",
+      "\t\"params\": [ 6, \"Tu contraseña debe contener mínimo X digitos\"]",
+      "}"
+    ]
+  },
+  "validate-match-number": {
+    "prefix": "validate-match-number",
+    "body": [
+      "{",
+      "\t\"type\": \"matches\", ",
+      "\t\"params\": [\"/^.*[0-9].*$/",
+      "1 número\"]",
+      "}"
+    ]
+  },
+  "validate-match-mayus": {
+    "prefix": "validate-match-mayus",
+    "body": [
+      "{",
+      "\t\"type\": \"matches\", ",
+      "\t\"params\": [\"/^.*[A-Z].*$/",
+      "1 mayúscula\"]",
+      "}"
+    ]
+  },
+  "validate-match-minus": {
+    "prefix": "validate-match-minus",
+    "body": [
+      "{",
+      "\t\"type\": \"matches\", ",
+      "\t\"params\": [\"/^.*[a-z].*$/",
+      "1 minúscula\"]",
+      "}"
+    ]
+  },
+  "form": {
+    "prefix": "form",
+    "body": [
+      "{",
+      "\t\"componentName\": \"store-form\", ",
+      "\t\t\"props\": {",
+      "\t\t\t\"context\": [\"\"], ",
+      "\t\t\t\"mode\": \"onChange\", ",
+      "\t\t\t\"scrollView\": true, ",
+      "\t\t\t\"parseInput\": { ",
+      "\t\t\t\t\"to\": {} ",
+      "\t\t\t}, ",
+      "\t\t\t\"style\": \"\" ",
+      "\t\t},",
+      "\t\t\"children\": [] ",
+      "}"
+    ]
+  }
 }

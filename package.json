@@ -1,7 +1,8 @@
 {
-  "name": "hooks-snippet-frameworkii",
-  "displayName": "hooks-snippet-frameworkII.",
+  "name": "snippets-framework-ii",
+  "displayName": "Snippets framework II",
   "description": "snippet para rellenar template basico de framework II",
+  "icon": "./images/FrameworkIIwhite.png",
   "publisher": "CesarRincon",
   "version": "0.0.2",
   "engines": {
